@@ -1,14 +1,13 @@
+import { Header } from './components/Header/Header';
+import { Container } from './container/Container';
 import './Index.scss'
 
-export const Header = () =>{
-  return  <div className="App">d</div>
-}
+
 function Index() {
   return (
-    <div>
-      Olá
-    </div>
+    <Container>
+      <Header />
+    </Container>
   )
 }
-
 export default Index;
