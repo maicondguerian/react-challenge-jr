@@ -1,0 +1,17 @@
+$Grayish-Blue: hsl(217, 19%, 38%);
+$Dark-Grayish-Blue: hsl(217, 19%, 24%);
+$Dark-Blue: hsl(218, 23%, 16%);
+
+$body-width: 480px;
+$body-height: 290px;
+
+#container{
+    position: absolute;
+    background-color: $Dark-Blue;
+    width: $body-width;
+    height: $body-height;
+    top: 50%;
+    left: 50%;
+    margin-top: calc(($body-height / 2) * -1);
+    margin-left: calc(($body-width / 2) * -1);
+}
