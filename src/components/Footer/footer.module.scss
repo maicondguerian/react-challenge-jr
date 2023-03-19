@@ -1,0 +1,27 @@
+.footerContainer {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    .buttonWrapper {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        align-items: center;
+        background-color: var(--Neon-Green);
+        bottom: -93px;
+        
+        button {
+            background-color: transparent;
+            border: none;
+            width: auto;
+            display: flex;
+        }
+    }    
+
+}
