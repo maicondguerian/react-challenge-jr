@@ -1,3 +1,15 @@
+@import url(./../../Index.scss);
+
 .headerWrapper{
-   
+    color: var(--Neon-Green);
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+    span {
+        font-weight: 800;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
 }

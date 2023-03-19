@@ -1,0 +1,15 @@
+$altura: 330px;
+$largura: 540px;
+
+.container {
+    width: $largura;
+    height: $altura;
+    background-color: #313A49;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: calc(($largura / 2) * -1);
+    margin-top: calc(($altura / 2) * -1);
+    border-radius: 15px;
+    padding: 2rem;
+}
