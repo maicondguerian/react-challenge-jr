@@ -8,9 +8,9 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footerContainer} onClick={handleSubmit}>
-        <button className={styles.btn}>
-          <img src={svg} alt="123" />
-        </button>
+      <button className={styles.btn}>
+        <img src={svg} alt="123" />
+      </button>
     </footer>
   );
 };

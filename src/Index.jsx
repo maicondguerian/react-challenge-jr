@@ -8,7 +8,7 @@ import { callApi } from './components/CallApi/CallApi';
 import { useState } from 'react';
 
 function Index() {
-const [dados, setDados] = useState({});
+  const [dados, setDados] = useState({});
 
   const handleSubmit = () => {
     callApi()
@@ -19,16 +19,16 @@ const [dados, setDados] = useState({});
           advice: data.slip.advice
         })
       })
-  };  
-  
+  };
+
   return (
- <MyContext.Provider value={{ handleSubmit, dados }}>
-    <Container>
-      <Header />
-      <Main />
-      <Footer />
-    </Container>
- </MyContext.Provider>
+    <MyContext.Provider value={{ handleSubmit, dados }}>
+      <Container>
+        <Header />
+        <Main />
+        <Footer />
+      </Container>
+    </MyContext.Provider>
   )
 }
 export default Index;

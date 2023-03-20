@@ -8,7 +8,7 @@ export const Main = () => {
     return (
         <main className={styles.mainWrapper}>
             <p><q> {dados.advice} </q></p>
-            <div><img src={svg} alt=''/></div>
+            <div><img src={svg} alt='' /></div>
         </main>
     )
 }
