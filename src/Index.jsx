@@ -14,13 +14,15 @@ const [dados, setDados] = useState({});
     callApi()
       .then(response => response.json())
       .then(data => {
-        setDados(data)
-        console.log(data)
+        setDados({
+          id: data.slip.id,
+          advice: data.slip.advice
+        })
       })
   };  
   
   return (
- <MyContext.Provider value={{handleSubmit}}>
+ <MyContext.Provider value={{ handleSubmit, dados }}>
     <Container>
       <Header />
       <Main />
