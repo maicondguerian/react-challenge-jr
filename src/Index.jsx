@@ -1,8 +1,8 @@
+import './Index.scss'
 import { Header } from './components/Header/Header';
 import { Main } from './components/Main/Main';
 import { Footer } from './components/Footer/Footer';
 import { Container } from './container/Container';
-import './Index.scss'
 import { MyContext } from './context/MyContext';
 import { callApi } from './components/CallApi/CallApi';
 import { useState } from 'react';
